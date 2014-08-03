@@ -1,6 +1,8 @@
-ExtendedUtils
-=
+#ExtendedUtils
 
 Extended utilities for Prestashop.
 
-{get_template_vars} - use for print all smarty template variables
+##Test
+
+**{get_template_vars}**
+Use for print all smarty template variables
