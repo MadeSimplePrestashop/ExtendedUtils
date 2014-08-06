@@ -32,8 +32,8 @@ class extendedutils_smarty extends Module {
 
     public static function get_template_vars($params) {
         $smarty = Context::getContext()->smarty;
-        $tpl_vars = $smarty->tpl_vars;
-
+        $tpl_vars = $smarty->getTemplateVars();
+        
         $str = '<pre>';
         foreach ($tpl_vars as $key => $value) {
             if (is_object($value)) {

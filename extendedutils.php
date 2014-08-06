@@ -33,7 +33,7 @@ class ExtendedUtils extends Module {
         $this->need_instance = 0;
         $this->trusted = 1;
         // $this->dependencies = array('blockcart');
-
+        
         parent::__construct();
 
         $this->displayName = $this->l('Extened Utils');
